@@ -6,6 +6,12 @@ K Voltage regulator switching buck fixed output analog
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP2108.pdf
 $ENDCMP
 #
+$CMP ADP5054
+D 250kHz to 2MHz, 6A/6A/2A/2A Quad Buck Regulator, -40 to +125C 
+K quad regulator dcdc buck synchronizable parallel 
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP5054.pdf
+$ENDCMP
+#
 $CMP APE1707H-12-HF
 D 12V 2A, 150KHz PWM Buck DC/DC Converter, TO252-5 (D-PAK)
 K 12V 2A 150KHz PWM Buck DC/DC
@@ -200,6 +206,12 @@ $CMP ICL7660
 D Switched-Capacitor Voltage Converter, 1.5V to 10.0V operating supply voltage, 10mA with a 0.5V output drop
 K monolithic CMOS switched capacitor voltage converter invert double divide multiply
 F http://datasheets.maximintegrated.com/en/ds/ICL7660-MAX1044.pdf
+$ENDCMP
+#
+$CMP IR3898-MTRPBF
+D Infineon 6A 1-21Vin DC/DC Synchronous Buck Regulator
+K infineon suprirbuck dcdc regulator convertor synchronous buck
+F http://www.infineon.com/dgdl/ir3898m.pdf?fileId=5546d462533600a4015355d5ebb01815
 $ENDCMP
 #
 $CMP ISL8117
