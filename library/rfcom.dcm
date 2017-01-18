@@ -28,6 +28,24 @@ K 2.4GHz rf transceiver ZigBee 802.15.4
 F http://www.ti.com/lit/gpn/cc2520
 $ENDCMP
 #
+$CMP CYBLE-022001-00
+D Bluetooth 4.1 Programmable Radio on A Chip, Integrated Chip Antenna, 48MHz ARM Corex-M0, 128KB Flash, 16KB SRAM, 16 GPIO, 2 SCB, 4 TCPWM, 1 12-BIT SAR ADC
+K CYPRESS PROC BLE MODULE ARM CORTEX M0 BLUETOOTH 
+F http://www.cypress.com/file/140791/download
+$ENDCMP
+#
+$CMP CYBLE-222005-00
+D Bluetooth 4.1 Programmable Radio on A Chip, Integrated Chip Antenna, 48MHz ARM Corex-M0, 256KB Flash, 32KB SRAM, 16 GPIO, 2 SCB, 4 TCPWM, 1 12-BIT SAR ADC
+K CYPRESS PROC BLE MODULE ARM CORTEX M0 BLUETOOTH 
+F http://www.cypress.com/file/140791/download
+$ENDCMP
+#
+$CMP CYBLE-222014-01
+D Bluetooth 4.2 Programmable Radio on A Chip, Integrated Chip Antenna, 48MHz ARM Corex-M0, 256KB Flash, 32KB SRAM, 16 GPIO, 2 SCB, 4 TCPWM, 1 12-BIT SAR ADC
+K CYPRESS PROC BLE MODULE ARM CORTEX M0 BLUETOOTH 
+F http://www.cypress.com/file/140791/download
+$ENDCMP
+#
 $CMP HF-A11-SMT
 D WiFi IEEE802.11b/g/n with Ethernet Module, UART, GPIO
 K WiFi IEEE802.11 b/g/n
